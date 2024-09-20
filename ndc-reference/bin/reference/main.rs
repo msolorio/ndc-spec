@@ -21,7 +21,8 @@ use prometheus::{Encoder, IntCounter, IntGauge, Opts, Registry, TextEncoder};
 use regex::Regex;
 use tokio::sync::Mutex;
 
-const DEFAULT_PORT: u16 = 8080;
+// const DEFAULT_PORT: u16 = 8080;
+const DEFAULT_PORT: u16 = 8102;
 
 const ARTICLES_JSON: &str = include_str!("../../articles.json");
 const AUTHORS_JSON: &str = include_str!("../../authors.json");
